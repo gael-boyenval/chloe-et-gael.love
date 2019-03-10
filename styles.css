@@ -1,3 +1,63 @@
-body {
-    color: blue;
+@font-face {
+    font-family: 'Bombshell Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BombshellPro'), url('BombshellPro.woff') format('woff');
 }
+
+* {
+    box-sizing: border-box;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+}
+
+header {
+    padding: 2rem;
+    width: 100vw;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d5b78b url('paper.jpg');
+    background-size: cover;
+}
+
+header .title {
+    font-weight: normal;
+    font-size: 142px;
+    font-family: 'Bombshell Pro', sans-serif;
+    line-height: 0.68;
+    transform: rotate(-18deg);
+}
+header .subtitle {
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: -80px;
+    margin-right: -80px;
+}
+
+header .title small {
+    font-size: 0.5em;
+    display: inline-block;
+    transform: translateX(0.5em);
+}
+
+.form-container {
+    max-width: 720px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
