@@ -17,7 +17,11 @@
             "use": "@now/static"
         },
         {
-            "src": "*.jpg",
+            "src": "imgs/*.jpg",
+            "use": "@now/static"
+        },
+        {
+            "src": "imgs/*.svg",
             "use": "@now/static"
         }
     ]
