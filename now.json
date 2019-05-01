@@ -21,6 +21,10 @@
             "use": "@now/static"
         },
         {
+            "src": "imgs/*.png",
+            "use": "@now/static"
+        },
+        {
             "src": "imgs/*.svg",
             "use": "@now/static"
         }
